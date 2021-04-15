@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact - DST</title>
+	<link href="../css/style.css" rel="stylesheet" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="../css/mobile.css" media="screen and (max-width : 568px)">
+	<script type="text/javascript" src="../js/mobile-html.js"></script>
+</head>
+
+<body>
+
+    <div id="header">
+		<a href="../index.php" class="logo">
+            <img src="../images/logo.png" alt="">
+		</a>
+		<ul id="navigation">
+			<li>
+				<a href="../index.php">Acasă</a>
+			</li>
+			<li>
+				<a href="despre.html">Despre</a>
+			</li>
+			<li>
+				<a href="servicii.html">Servicii</a>
+			</li>
+			<li>
+				<a href="intrebari.html">Întrebări</a>
+			</li>
+			<li class="selected">
+				<a href="contact.html">Contact</a>
+			</li>
+        </ul>
+        <img src="../images/border.png" alt="" width="800px%">
+	</div>
+	
+	<div id="body">
+		<h1><span>Contactează-ne</span></h1>
+		<form action="../php/contact/dateEmail.php" method="post">
+			<input type="text" name="nume" id="nume" placeholder="Nume*" required>
+			<input type="text" name="prenume" id="prenume" placeholder="Prenume*" required>
+			<input type="text" name="email" id="email" placeholder="Email*" required>
+			<input type="number" name="telefon" id="telefon" placeholder="Număr telefon*" required>
+			<textarea name="mesaj" id="mesaj" placeholder="Mesaj*" required></textarea>
+			<input type="submit" name="send" id="send" value="Trimite">
+		</form>
+	</div>
+
+	<div id="footer">
+		<div>
+			<p id="main">&copy; 2019 by <a href="mailto:draia.radu24@gmail.com">Draia Radu</a>.</p>
+			<ul>
+				<p>Ne găsiți și aici:</p>
+				<li>
+					<a href="tel:0722564655" id="telefon">Telefon</a>
+				</li>
+				<li>
+					<a href="contact.html" id="mesaj">Mesaj</a>
+				</li>
+				<li>
+					<a href="http://facebook.com/" id="facebook">Facebook</a>
+				</li>
+			</ul>
+		</div>
+		<p id="second">&copy; 2019 by <a href="mailto:draia.radu24@gmail.com">Draia Radu</a>.</p>
+	</div>
+
+
+</body>
+
+</html>

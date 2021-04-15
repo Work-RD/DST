@@ -1,0 +1,232 @@
+
+body {
+	min-width: 0;
+}
+body a {
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+/*HEADER*/
+
+
+#header {
+	padding: 20px 0;
+	position: relative;
+    width: 100%;
+}
+#header a.logo {
+	width: 40%;
+}
+#header a.logo img {
+    width: 100%;
+}
+#mobile-navigation {
+	background: url(../images/mobile-menu.png) no-repeat 0 0;
+	display: block;
+	height: 50px;
+	margin: 10px auto;
+	padding: 0;
+	width: 50px;
+}
+#header ul {
+	border: 1px solid black;
+	display: none;
+	left: 50%;
+	margin-left: -49%;
+	padding: 0;
+	position: absolute;
+	width: 98%;
+	z-index: 1001;
+}
+#header ul li {
+	border-top: 1px solid black;
+	display: block;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#header > ul > li:first-child {
+	border: 0;
+}
+#header ul li a {
+	background: white;
+	color: black;
+	display: block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 15px;
+}
+#header ul li a:hover, #header ul li.selected a {
+	background: rgba(0, 0, 0, 0.9);
+	color: #fff;
+}
+#header img {
+	width: 80%
+}
+
+
+/*BODY*/
+
+
+#body {
+	width: 100%;
+}
+#body h1 {
+	display: block;
+	font-size: 18px;
+	margin: 0 auto;
+	width: 90%;
+}
+#body h1 span {
+	display: block;
+	padding: 3%;
+	width: 94%;
+}
+#body > div {
+	padding: 0 5%;
+	width: 90%;
+}
+#body > div img {
+	margin: 24px 0 30px;
+	width: 70%
+}
+#body > div .article {
+	padding: 0;
+	width: 100%;
+}
+#body #featured {
+	overflow: hidden;
+	margin: 0 0 20px
+}
+#body #featured img {
+	min-width: 960px;
+}
+#body #featured div {
+	left: 0;
+	margin: 0;
+	padding: 0 2%;
+	position: absolute;
+	top: 6%;
+	width: 96%;
+}
+#body #featured div h2 {
+	font-size: 14px;
+	font-weight: normal;
+	margin: 50px 0 10px;
+    padding: 8px 5px;
+    border-radius: 20px;
+}
+#body #featured div span {
+	display: block;
+	font-size: 12px;
+	margin: 10px 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+#body #featured div a {
+	font-size: 14px;
+	margin: 5px 0 0;
+    padding: 10px;
+    border-radius: 20px;
+}
+#body > ul {
+	overflow: visible;
+	padding: 0 5%;
+	width: 90%;
+}
+#body > ul li {
+	float: none;
+	margin: 0;
+	width: 100%;
+}
+#body > ul li a img {
+    width: 70%;
+    margin: auto;
+}
+#body > ul li a span {
+	padding: 15px 0;
+}
+#body div ul {
+	margin: 0;
+	padding: 20px 0 0;
+    width: 80%;
+    margin: auto;
+}
+#body div ul li {
+	overflow: visible;
+	padding: 0 0 20px;
+	width: 99%;
+}
+#body div ul li .figure {
+	border: 0;
+	display: block;
+	float: none;
+	margin: 0 0 20px;
+    width: 60%;
+    margin: auto;
+}
+#body div ul li .figure img {
+	width: 100%;
+}
+#body div ul li div {
+	float: none;
+	padding: 0;
+	width: 100%;
+}
+#body div ul li div a.more:hover {
+	height: 14px;
+	line-height: 14px;
+}
+#body form {
+	width: 100%;
+}
+#body form input, #body form textarea {
+	margin: 0 0 20px;
+	padding: 10px;
+	width: 84%;
+}
+#body form #send {
+	padding: 10px;
+}
+
+
+/*FOOTER*/
+
+
+#footer {
+	padding: 10px 0 25px;
+}
+#footer div {
+	overflow: visible;
+	width: 100%;
+}
+#footer div p {
+	float: none;
+	margin: 0;
+	text-align: center;
+}
+#footer div ul {
+	float: none;
+	margin: 0 auto;
+	width: 192px;
+}
+#footer div #main {
+	display: none;
+}
+#footer #second {
+	display: block;
+	float: none;
+	margin: 0;
+	text-align: center;
+}
+#footer #second a {
+	color: #fff;
+	text-decoration: none;
+}
+#footer #second a:hover {
+	color: green;
+	zoom: 1.1;
+}
